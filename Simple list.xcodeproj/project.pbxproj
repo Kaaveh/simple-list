@@ -14,6 +14,8 @@
 		CE7197B7293A42E9009333C9 /* Simple_listTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7197B6293A42E9009333C9 /* Simple_listTests.swift */; };
 		CE7197C1293A42E9009333C9 /* Simple_listUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7197C0293A42E9009333C9 /* Simple_listUITests.swift */; };
 		CE7197C3293A42E9009333C9 /* Simple_listUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7197C2293A42E9009333C9 /* Simple_listUITestsLaunchTests.swift */; };
+		CE7197D1293A4450009333C9 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7197D0293A4450009333C9 /* Item.swift */; };
+		CE7197D6293A4CD1009333C9 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7197D5293A4CD1009333C9 /* ListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		CE7197BC293A42E9009333C9 /* Simple listUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple listUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7197C0293A42E9009333C9 /* Simple_listUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simple_listUITests.swift; sourceTree = "<group>"; };
 		CE7197C2293A42E9009333C9 /* Simple_listUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simple_listUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CE7197D0293A4450009333C9 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		CE7197D5293A4CD1009333C9 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,8 @@
 		CE7197A4293A42E8009333C9 /* Simple list */ = {
 			isa = PBXGroup;
 			children = (
+				CE7197D3293A44BD009333C9 /* Domian */,
+				CE7197D2293A44B1009333C9 /* View */,
 				CE7197A5293A42E8009333C9 /* Simple_listApp.swift */,
 				CE7197A7293A42E8009333C9 /* ContentView.swift */,
 				CE7197A9293A42E9009333C9 /* Assets.xcassets */,
@@ -125,6 +131,38 @@
 				CE7197C2293A42E9009333C9 /* Simple_listUITestsLaunchTests.swift */,
 			);
 			path = "Simple listUITests";
+			sourceTree = "<group>";
+		};
+		CE7197CF293A4427009333C9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE7197D0293A4450009333C9 /* Item.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE7197D2293A44B1009333C9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE7197D4293A44D4009333C9 /* List */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE7197D3293A44BD009333C9 /* Domian */ = {
+			isa = PBXGroup;
+			children = (
+				CE7197CF293A4427009333C9 /* Model */,
+			);
+			path = Domian;
+			sourceTree = "<group>";
+		};
+		CE7197D4293A44D4009333C9 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				CE7197D5293A4CD1009333C9 /* ListViewModel.swift */,
+			);
+			path = List;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +296,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE7197A8293A42E8009333C9 /* ContentView.swift in Sources */,
+				CE7197D1293A4450009333C9 /* Item.swift in Sources */,
+				CE7197D6293A4CD1009333C9 /* ListViewModel.swift in Sources */,
 				CE7197A6293A42E8009333C9 /* Simple_listApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

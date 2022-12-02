@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct Simple_listApp: App {
+    
+    @StateObject var listViewModel = ListViewModel()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(listViewModel: listViewModel)
         }
     }
 }
