@@ -5,6 +5,7 @@ This is my first project in iOS native world!
 Using:
 - SwiftUI
 - MVVM architectural pattern
+- Unit test
 
 
 # Screenshot

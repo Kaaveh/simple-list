@@ -12,21 +12,12 @@
 		CE7197AA293A42E9009333C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7197A9293A42E9009333C9 /* Assets.xcassets */; };
 		CE7197AD293A42E9009333C9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7197AC293A42E9009333C9 /* Preview Assets.xcassets */; };
 		CE7197B7293A42E9009333C9 /* Simple_listTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7197B6293A42E9009333C9 /* Simple_listTests.swift */; };
-		CE7197C1293A42E9009333C9 /* Simple_listUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7197C0293A42E9009333C9 /* Simple_listUITests.swift */; };
-		CE7197C3293A42E9009333C9 /* Simple_listUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7197C2293A42E9009333C9 /* Simple_listUITestsLaunchTests.swift */; };
 		CE7197D1293A4450009333C9 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7197D0293A4450009333C9 /* Item.swift */; };
 		CE7197D6293A4CD1009333C9 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7197D5293A4CD1009333C9 /* ListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		CE7197B3293A42E9009333C9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CE71979A293A42E8009333C9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CE7197A1293A42E8009333C9;
-			remoteInfo = "Simple list";
-		};
-		CE7197BD293A42E9009333C9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CE71979A293A42E8009333C9 /* Project object */;
 			proxyType = 1;
@@ -43,9 +34,6 @@
 		CE7197AC293A42E9009333C9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CE7197B2293A42E9009333C9 /* Simple listTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple listTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7197B6293A42E9009333C9 /* Simple_listTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simple_listTests.swift; sourceTree = "<group>"; };
-		CE7197BC293A42E9009333C9 /* Simple listUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple listUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE7197C0293A42E9009333C9 /* Simple_listUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simple_listUITests.swift; sourceTree = "<group>"; };
-		CE7197C2293A42E9009333C9 /* Simple_listUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simple_listUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CE7197D0293A4450009333C9 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		CE7197D5293A4CD1009333C9 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,13 +53,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE7197B9293A42E9009333C9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -80,7 +61,6 @@
 			children = (
 				CE7197A4293A42E8009333C9 /* Simple list */,
 				CE7197B5293A42E9009333C9 /* Simple listTests */,
-				CE7197BF293A42E9009333C9 /* Simple listUITests */,
 				CE7197A3293A42E8009333C9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,7 +70,6 @@
 			children = (
 				CE7197A2293A42E8009333C9 /* Simple list.app */,
 				CE7197B2293A42E9009333C9 /* Simple listTests.xctest */,
-				CE7197BC293A42E9009333C9 /* Simple listUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -122,15 +101,6 @@
 				CE7197B6293A42E9009333C9 /* Simple_listTests.swift */,
 			);
 			path = "Simple listTests";
-			sourceTree = "<group>";
-		};
-		CE7197BF293A42E9009333C9 /* Simple listUITests */ = {
-			isa = PBXGroup;
-			children = (
-				CE7197C0293A42E9009333C9 /* Simple_listUITests.swift */,
-				CE7197C2293A42E9009333C9 /* Simple_listUITestsLaunchTests.swift */,
-			);
-			path = "Simple listUITests";
 			sourceTree = "<group>";
 		};
 		CE7197CF293A4427009333C9 /* Model */ = {
@@ -203,24 +173,6 @@
 			productReference = CE7197B2293A42E9009333C9 /* Simple listTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CE7197BB293A42E9009333C9 /* Simple listUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CE7197CC293A42E9009333C9 /* Build configuration list for PBXNativeTarget "Simple listUITests" */;
-			buildPhases = (
-				CE7197B8293A42E9009333C9 /* Sources */,
-				CE7197B9293A42E9009333C9 /* Frameworks */,
-				CE7197BA293A42E9009333C9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CE7197BE293A42E9009333C9 /* PBXTargetDependency */,
-			);
-			name = "Simple listUITests";
-			productName = "Simple listUITests";
-			productReference = CE7197BC293A42E9009333C9 /* Simple listUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -235,10 +187,6 @@
 						CreatedOnToolsVersion = 14.1;
 					};
 					CE7197B1293A42E9009333C9 = {
-						CreatedOnToolsVersion = 14.1;
-						TestTargetID = CE7197A1293A42E8009333C9;
-					};
-					CE7197BB293A42E9009333C9 = {
 						CreatedOnToolsVersion = 14.1;
 						TestTargetID = CE7197A1293A42E8009333C9;
 					};
@@ -259,7 +207,6 @@
 			targets = (
 				CE7197A1293A42E8009333C9 /* Simple list */,
 				CE7197B1293A42E9009333C9 /* Simple listTests */,
-				CE7197BB293A42E9009333C9 /* Simple listUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -275,13 +222,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		CE7197B0293A42E9009333C9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CE7197BA293A42E9009333C9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -310,15 +250,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE7197B8293A42E9009333C9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CE7197C3293A42E9009333C9 /* Simple_listUITestsLaunchTests.swift in Sources */,
-				CE7197C1293A42E9009333C9 /* Simple_listUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -326,11 +257,6 @@
 			isa = PBXTargetDependency;
 			target = CE7197A1293A42E8009333C9 /* Simple list */;
 			targetProxy = CE7197B3293A42E9009333C9 /* PBXContainerItemProxy */;
-		};
-		CE7197BE293A42E9009333C9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CE7197A1293A42E8009333C9 /* Simple list */;
-			targetProxy = CE7197BD293A42E9009333C9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -543,40 +469,6 @@
 			};
 			name = Release;
 		};
-		CE7197CD293A42E9009333C9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "kaaveh.ir.Simple-listUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Simple list";
-			};
-			name = Debug;
-		};
-		CE7197CE293A42E9009333C9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "kaaveh.ir.Simple-listUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Simple list";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -603,15 +495,6 @@
 			buildConfigurations = (
 				CE7197CA293A42E9009333C9 /* Debug */,
 				CE7197CB293A42E9009333C9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CE7197CC293A42E9009333C9 /* Build configuration list for PBXNativeTarget "Simple listUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CE7197CD293A42E9009333C9 /* Debug */,
-				CE7197CE293A42E9009333C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
